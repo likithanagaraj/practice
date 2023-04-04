@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+  background-image:linear-gradient(rgba(34, 32, 32, 0.151),rgba(133, 42, 42, 0.199)),url(/pexels-lukas-hartmann-1462011.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+display: inline-block;
+margin-left: 10px;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 15px;
+border: 1px solid transparent;
+border: inset;
+border-radius: 15px;
+transition: box-shadow 0.15s;
+}
+ul li a:hover{
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+cursor: pointer;
+}
+.logo img{
+float: left;
+height: 100px;
+width: 100px;
+border-radius: 100px;
+margin-left: 10px;
+margin-top: 25px;
+border: 1px solid rgba(255, 0, 0, 0.541);
+}
+.main{
+max-width: 1200px;
+margin: auto;
+}
+.title{
+position: absolute;
+top: 60%;
+left: 66%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+color: #fff;
+font-size: 85px;
+margin-left: 14px;
+}
+.end{
+border: 1px solid #fff;
+padding: 10px 30px;
+color: #fff;
+text-decoration: overline;
+margin-left: 25px;
+transition: box-shadow 0.15s;
+}
+.end:hover{
+background-color: rgba(165, 56, 56, 0.137);
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+cursor: pointer;
+}
+.button{
+margin-top: 5px;
+font-size: 20px;
+}
